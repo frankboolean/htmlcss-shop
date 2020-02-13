@@ -1,0 +1,28 @@
+
+.container{
+  background: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.item{
+  display: inline-block;
+  position: relative;
+}
+
+.sconto{
+  background: red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.cuorecentrato{
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  display: none;
+}
+.item:hover.cuorecentrato {
+  display:inline;
+}
